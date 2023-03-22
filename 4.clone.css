@@ -1,0 +1,95 @@
+.menu{
+	font-weight: bolder;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: powderblue;
+	padding-right: 15px;
+	margin-left: -8px;
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none ;
+	text-transform: uppercase;
+}
+.menu ul li::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: red;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.menu ul li:hover::after{
+	width: 100%;
+}
+.buttons{
+	padding:15px;
+	background-color:#F7DC6F;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0px 0px 0px;
+	cursor: pointer;
+	width: 25%;
+}
+
+
+.header{
+	text-align: center;
+	background-color: #D2B4DE;
+	padding:15px;
+	padding-top:30px;
+	padding-bottom: 30px;
+	margin: -10px -6px -1px -8px;
+}
+.About{
+	margin-left: 300px;
+	margin-top: -280px;
+	margin-right: 300px;
+}
+.Banner{
+	text-align: center;
+	width: 230px;
+	margin-left: 820px;
+	margin-top: -105px;
+	margin-right: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: powderblue;
+}
+.Copywrite{
+	width: 100%;
+	text-align: center;
+	margin-left: 15	px;
+	margin-top: 100px;
+	background-color: red;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
